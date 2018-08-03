@@ -27,6 +27,6 @@ int main(int argc,char *argv[]){
     w.show();
     ret = a.exec();
 
-    delete[] sns;
+	~sns();
     return ret;
 }

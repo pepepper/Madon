@@ -7,5 +7,5 @@ typedef struct{
 }SETTINGDATA;
 
 extern SETTINGDATA settingdata;
-extern SNS **sns;
+extern std::vector<std::shared_ptr<SNS>> sns;
 #endif // SETTINGDATA_H
